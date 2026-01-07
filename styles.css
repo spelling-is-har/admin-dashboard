@@ -124,8 +124,19 @@ div {
   background-color: var(--pacific-cyan-color);
 }
 
+.sidebar .dashboard-logo-container {
+  margin-bottom: 30px;
+}
+
+.sidebar .dashboard-logo-container img {
+  max-width: 75px;
+  min-width: 75px;
+  height: auto;
+}
+
 .sidebar ul {
   padding: 0;
+  margin: 0;
 }
 
 .sidebar li {
@@ -133,10 +144,12 @@ div {
   font-size: 20px;
   vertical-align: middle;
   text-decoration: none;
+  list-style: none;
 }
 
 .sidebar a {
   text-decoration: none;
+  margin-left: 25px;
 }
 
 .sidebar-top,
@@ -149,7 +162,7 @@ div {
 .icon {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 10px 0 0;
+  margin: 0 10px 0px 0;
 }
 
 .right-container {
