@@ -107,12 +107,16 @@ div {
 .header-top,
 .header-bottom {
   padding: 0 50px 0 50px;
+  padding: 25px;
+  display: grid;
 }
 
 .header-top {
-  padding: 25px;
-  display: grid;
   grid-template-columns: 3fr 1fr;
+}
+
+.header-bottom {
+  grid-template-columns: 2fr 1fr;
 }
 
 .search-container {
